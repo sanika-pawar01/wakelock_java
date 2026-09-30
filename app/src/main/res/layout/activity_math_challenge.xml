@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="?android:attr/windowBackground"
+    android:padding="32dp">
+
+    <TextView
+        android:id="@+id/tvQuestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="7 + 5 = ?"
+        android:textSize="42sp"
+        android:textStyle="bold"
+        android:textColor="@color/text_primary" />
+
+    <EditText
+        android:id="@+id/etAnswer"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="Answer"
+        android:inputType="number"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:layout_marginTop="24dp" />
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="SUBMIT"
+        android:textColor="@android:color/white"
+        android:backgroundTint="@color/primary"
+        android:layout_marginTop="24dp" />
+
+    <TextView
+        android:id="@+id/tvStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="@color/error"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>

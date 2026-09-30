@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base Theme -->
+    <style name="Theme.WakeLockJava" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="android:statusBarColor">#F7F8F6</item>
+        <item name="android:windowActivityTransitions">true</item>
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:textColorSecondary">@color/text_secondary</item>
+
+        <!-- Default attribute values to prevent crashes -->
+        <item name="wkBackgroundStyle">calm</item>
+        <item name="wkCardStyle">@style/WKCard.Calm</item>
+        <item name="wkCardBackgroundColor">@color/background_calm</item>
+        <item name="wkPrimaryButtonStyle">@style/WKButton.Primary.Calm</item>
+        <item name="wkHeaderTextAppearance">@style/WKText.Header</item>
+    </style>
+
+    <style name="Theme.WakeLock.Calm" parent="Theme.WakeLockJava">
+        <item name="wkBackgroundStyle">calm</item>
+        <item name="wkCardStyle">@style/WKCard.Calm</item>
+        <item name="wkCardBackgroundColor">@color/background_calm</item>
+        <item name="wkPrimaryButtonStyle">@style/WKButton.Primary.Calm</item>
+        <item name="wkHeaderTextAppearance">@style/WKText.Header</item>
+        <item name="android:windowBackground">@color/background_calm</item>
+    </style>
+
+    <style name="Theme.WakeLock.Dark" parent="Theme.WakeLockJava">
+        <item name="wkBackgroundStyle">dark</item>
+        <item name="wkCardStyle">@style/WKCard.Dark</item>
+        <item name="wkCardBackgroundColor">@color/background_dark</item>
+        <item name="wkPrimaryButtonStyle">@style/WKButton.Primary.Dark</item>
+        <item name="android:windowBackground">@color/background_dark</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:textColorPrimary">@color/on_surface_dark</item>
+        <item name="android:textColorSecondary">@color/accent_dark</item>
+    </style>
+
+    <style name="Theme.WakeLock.Dreamy" parent="Theme.WakeLockJava">
+        <item name="wkBackgroundStyle">dreamy</item>
+        <item name="wkCardStyle">@style/WKCard.Dreamy</item>
+        <item name="wkCardBackgroundColor">@color/bg_start_dreamy</item>
+        <item name="wkPrimaryButtonStyle">@style/WKButton.Primary.Dreamy</item>
+        <item name="android:windowBackground">@color/bg_start_dreamy</item>
+    </style>
+
+    <style name="Theme.WakeLock.Focus" parent="Theme.WakeLockJava">
+        <item name="wkBackgroundStyle">minimal</item>
+        <item name="wkCardStyle">@style/WKCard.Minimal</item>
+        <item name="wkCardBackgroundColor">@color/background_minimal</item>
+        <item name="wkPrimaryButtonStyle">@style/WKButton.Primary.Minimal</item>
+        <item name="android:windowBackground">@color/background_minimal</item>
+    </style>
+
+    <style name="Theme.WakeLock.Light" parent="Theme.WakeLockJava">
+        <item name="wkBackgroundStyle">sunrise</item>
+        <item name="wkCardStyle">@style/WKCard.Sunrise</item>
+        <item name="wkCardBackgroundColor">@color/background_sunrise</item>
+        <item name="wkPrimaryButtonStyle">@style/WKButton.Primary.Sunrise</item>
+        <item name="android:windowBackground">@color/background_sunrise</item>
+    </style>
+
+    <style name="ShapeAppearance.WakeLock.Large" parent="ShapeAppearance.Material3.LargeComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">32dp</item>
+    </style>
+
+    <style name="ShapeAppearance.WakeLock.Medium" parent="ShapeAppearance.Material3.MediumComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">20dp</item>
+    </style>
+</resources>

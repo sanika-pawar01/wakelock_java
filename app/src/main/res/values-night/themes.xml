@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.WakeLockJava" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorOnPrimary">@color/on_primary</item>
+        <item name="colorPrimaryContainer">#3E443C</item>
+        <item name="colorOnPrimaryContainer">#E2E8DF</item>
+
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">#D4A373</item>
+        <item name="colorOnSecondary">#1A1C19</item>
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">#0F110E</item>
+        <item name="android:windowLightStatusBar">false</item>
+
+        <!-- Window background -->
+        <item name="android:windowBackground">#0F110E</item>
+
+        <!-- Shape appearance -->
+        <item name="shapeAppearanceLargeComponent">@style/ShapeAppearance.WakeLock.Large</item>
+        <item name="shapeAppearanceMediumComponent">@style/ShapeAppearance.WakeLock.Medium</item>
+    </style>
+</resources>

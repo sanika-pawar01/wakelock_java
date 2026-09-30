@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#A8B5A2</color>
+    <color name="primary_variant">#8A9A84</color>
+    <color name="on_primary">#1A1C19</color>
+
+    <color name="background">#0F110E</color>
+    <color name="on_background">#E2E8DF</color>
+
+    <color name="surface">#1A1C19</color>
+    <color name="on_surface">#E2E8DF</color>
+    <color name="surface_variant">#242622</color>
+
+    <color name="text_primary">#E2E8DF</color>
+    <color name="text_secondary">#BEC9BA</color>
+
+    <color name="accent">#D4A373</color>
+    <color name="success">#A5D6A7</color>
+    <color name="error">#EF9A9A</color>
+
+    <color name="divider">#242622</color>
+</resources>

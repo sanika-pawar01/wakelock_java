@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base / Calm Palette -->
+    <color name="primary">#8C9A86</color>
+    <color name="primary_variant">#73826E</color>
+    <color name="on_primary">#FFFFFF</color>
+    <color name="background_calm">#F7F8F6</color>
+    <color name="surface_calm">#FFFFFF</color>
+    <color name="text_primary_calm">#2D3436</color>
+    <color name="text_secondary_calm">#636E72</color>
+
+    <!-- Dark Focus Palette -->
+    <color name="primary_dark">#A8B5A2</color>
+    <color name="background_dark">#0F110E</color>
+    <color name="surface_dark">#1A1C19</color>
+    <color name="on_surface_dark">#E2E8DF</color>
+    <color name="accent_dark">#D4A373</color>
+    <color name="glow_dark">#40D4A373</color>
+
+    <!-- Dreamy Palette -->
+    <color name="primary_dreamy">#9BA9C1</color>
+    <color name="accent_dreamy">#CBA6B9</color>
+    <color name="bg_start_dreamy">#F3E7E9</color>
+    <color name="bg_end_dreamy">#E3EEFF</color>
+    <color name="glass_dreamy">#80FFFFFF</color>
+
+    <!-- Minimal Palette -->
+    <color name="primary_minimal">#121212</color>
+    <color name="background_minimal">#FAFAFA</color>
+    <color name="surface_minimal">#FFFFFF</color>
+    <color name="text_primary_minimal">#121212</color>
+    <color name="stroke_minimal">#E0E0E0</color>
+
+    <!-- Sunrise Palette -->
+    <color name="primary_sunrise">#FF9F43</color>
+    <color name="background_sunrise">#FFF9F0</color>
+    <color name="surface_sunrise">#FFFFFF</color>
+    <color name="accent_sunrise">#FF6B6B</color>
+
+    <!-- UI Helpers -->
+    <color name="success">#81C784</color>
+    <color name="error">#E57373</color>
+    <color name="divider">#EEEEEE</color>
+    <color name="background">#F7F8F6</color>
+    <color name="accent">#D4A373</color>
+    <color name="text_primary">#2D3436</color>
+    <color name="text_secondary">#636E72</color>
+    <color name="surface">#FFFFFF</color>
+
+    <!-- Pose Detection Colors -->
+    <color name="skeleton_bone">#B3FFFFFF</color>
+    <color name="skeleton_joint">#FFFFFF</color>
+    <color name="skeleton_active">#81C784</color>
+    <color name="on_background">#2D3436</color>
+    <color name="on_surface">#2D3436</color>
+    <color name="surface_variant">#F5F5F5</color></resources>

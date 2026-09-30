@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?android:attr/windowBackground">
+
+    <com.example.wakelockjava.ui.AnimatedBackgroundView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="40dp">
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/successCard"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            app:cardBackgroundColor="@color/success"
+            app:cardCornerRadius="60dp"
+            app:cardElevation="8dp"
+            app:strokeWidth="0dp">
+
+            <ImageView
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:layout_gravity="center"
+                android:src="@android:drawable/checkbox_on_background"
+                app:tint="#FFFFFF" />
+        </com.google.android.material.card.MaterialCardView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="Challenge Complete"
+            android:textColor="?android:attr/textColorPrimary"
+            android:textSize="28sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:alpha="0.6"
+            android:text="You've earned your morning."
+            android:textColor="?android:attr/textColorSecondary"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btnDone"
+            style="?attr/wkPrimaryButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:layout_marginTop="64dp"
+            android:text="RETURN HOME"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</FrameLayout>
